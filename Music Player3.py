@@ -29,7 +29,7 @@ mixer.init()
 songstatus=StringVar()
 songstatus.set("choosing")
 
-#playlist---------------
+
 
 playlist=Listbox(root,selectmode=SINGLE,bg="DodgerBlue2",fg="white",font=('arial',15),width=40)
 playlist.grid(columnspan=5)
